@@ -1603,14 +1603,14 @@ body {
 }
 
 .message {
-  font-size: 24px;
+  font-size: 28px;
   font-family: Arial, sans-serif;
   color: #ffffff;
   padding: 10px 20px;
   position: absolute;
   z-index: 9999;
   text-align: center;
-  top: 20px;
+  top: 30px;
   left: 50%;
   transform: translateX(-50%);
 }
