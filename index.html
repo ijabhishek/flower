@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" href="css/main.css">
   <link rel="icon" href="img/flowers.png" type="image/x-icon">
-  <title>Beautiful Button</title>
 
   <style>
     
@@ -15,15 +14,8 @@
 </head>
 
 <body class="container">
-  <a href="flower.html" class="beautiful-button">Click Me</a>
+  <a href="flower.html" class="beautiful-button" onclick="playAndRedirect()">Click Me</a>
 
-  <script>
-    function playAndRedirect() {
-      var audio = new Audio('mysong.mp3');
-      audio.play();
-      window.location.href = 'flower.html';
-    }
-  </script>
 </body>
 
 </html>
