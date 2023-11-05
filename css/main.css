@@ -1621,10 +1621,12 @@ body {
   padding: 15px 30px;
   font-size: 18px;
   font-weight: bold;
-  color: #fff;
+  color: #020000;
   text-align: center;
+  top: 20px;
+  bottom: 50px;
   text-decoration: none;
-  background-color: #61f4ff;
+  background-color: #76f18d;
   border: none;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1632,7 +1634,7 @@ body {
 }
 
 .beautiful-button:hover {
-  background-color: #cb44e6;
+  background-color: #dcc279;
 }
 
 @media(max-width: 768px) {
