@@ -1614,3 +1614,30 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.beautiful-button {
+  display: block;
+  margin: 50px auto;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #61f4ff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.beautiful-button:hover {
+  background-color: #cb44e6;
+}
+
+@media(max-width: 768px) {
+  .beautiful-button {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}
